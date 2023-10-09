@@ -1,0 +1,289 @@
+/** import Bulma **/
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+/** import fonts **/
+@import url("https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@400;500;600;700&display=swap");
+
+/** general styling **/
+
+:root {
+  --yellow: rgb(255, 196, 0);
+  --red: #d61a1f;
+  --white: #ffffff;
+  --black: #202020;
+}
+
+body {
+  font-family: "Tsukimi Rounded", monospace;
+  padding: 0rem;
+  background-color: var(--yellow);
+  border-top: 0.5rem solid var(--red);
+}
+
+.title {
+  font-size: 48px;
+  color: var(--black);
+}
+
+/** header styling **/
+.header-container {
+  padding: 0rem 3rem;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  height: 80px;
+}
+
+.header-container a {
+  color: inherit;
+}
+
+.header-container a:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+.header-logo-img {
+  height: 50px;
+}
+
+.header-logo-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/** splash styling **/
+.splash-container {
+  padding: 0rem 3rem;
+  padding-top: 50px;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 280px);
+}
+
+.splash-column {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+.splash-leftside {
+  flex-direction: column;
+  align-items: center;
+}
+
+.splash-action-btn {
+  font-family: "Tsukimi Rounded", monospace;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.splash-action-btn::before {
+  content: "CHECK OUT LUNCH DEALS";
+}
+
+.splash-arrow {
+  width: 40px;
+  cursor: pointer;
+}
+
+/** divider styling **/
+.cloud-divider-container {
+  background-color: var(--white);
+  position: relative;
+  z-index: 3;
+}
+
+.cloud-divider-container .title {
+  font-size: 60px;
+  color: var(--red);
+}
+.cloud-divider-start {
+  margin-bottom: -6px;
+  position: relative;
+  z-index: 2;
+}
+.cloud-divider-end {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-color: var(--yellow);
+  margin-top: -1px;
+  position: relative;
+  z-index: 2;
+}
+
+/** menu styling **/
+.menu-container {
+  padding: 2rem 2rem;
+  margin-top: -10px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--yellow);
+  color: var(--red);
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-gyoza-img {
+  width: 600px;
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+
+/** wall styling **/
+.wall-container {
+  background-color: var(--white);
+  margin: 0rem 3rem 0rem 3rem;
+  padding: 2rem 0rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  border: 0.3rem solid var(--black);
+}
+
+.wall-container .title {
+  color: var(--red);
+  margin-bottom: 2rem;
+}
+
+.wall-columns {
+  padding: 0rem 2rem;
+}
+
+.wall-column {
+  display: flex;
+  justify-content: center;
+}
+
+.wall-column img {
+  height: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+  overflow: hidden;
+  border: 0.25rem solid var(--black);
+}
+
+.wall-text {
+  color: var(--red);
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0rem 2rem;
+}
+
+/** footer styling **/
+.footer {
+  margin-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  background-color: var(--red);
+  font-weight: 700;
+  color: var(--white);
+}
+
+.footer-logo-title {
+  font-size: 32px;
+}
+
+.footer-contacts-wrap {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-address {
+  font-size: 18px;
+}
+
+.footer-contacts-wrap .column {
+  padding: 0px;
+}
+
+.footer-logo-img {
+  height: 50px;
+}
+
+.footer-logo-subtitle {
+  color: var(--yellow);
+  margin-top: -40px;
+}
+
+.credits {
+  padding: 0rem 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.credits a {
+  font-weight: 600;
+  color: var(--yellow);
+}
+
+/** responsive fixes **/
+@media (max-width: 768px) {
+  .header-container {
+    height: 240px;
+  }
+
+  .splash-container {
+    height: calc(100vh - 300px);
+  }
+
+  .splash-column {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .splash-leftside {
+    display: flex;
+  }
+  .splash-action-btn {
+    font-size: 14px;
+  }
+  .splash-action-btn::before {
+    content: "LUNCH DEALS";
+  }
+  .splash-img {
+    position: relative;
+    z-index: 1;
+  }
+  .cloud-divider-start {
+    position: relative;
+    z-index: 2;
+  }
+  .cloud-divider-container .title {
+    font-size: 48px;
+  }
+
+  .wall-container .title {
+    font-size: 36px;
+  }
+  .wall-column {
+    flex-direction: column;
+  }
+
+  .wall-column img {
+    height: 100px;
+  }
+
+  .wall-column {
+    padding: 0.25rem;
+  }
+  .wall-text {
+    font-size: 18px;
+  }
+}
