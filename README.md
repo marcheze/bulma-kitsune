@@ -8,6 +8,13 @@ This repository was built for educational purposes and for you to code along in 
 
 Check out the ✨[Live Demo](https://amarchese.github.io/bulma-kitsune/) and ⭐ this repo if you enjoyed it.
 
+### Preview
+
+Splash screenshot:
+
+<p align="center" justify="center">
+<img src="media/kitsune_bulma_preview.png" style="scle: 50%"></p>
+
 ### Project Setup
 
 To start off with this project you only need to create `index.html` and `style.css` blank files in your project directory.
