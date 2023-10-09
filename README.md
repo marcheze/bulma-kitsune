@@ -2,9 +2,11 @@
 <img src="media/fox.png" style="height: 50px"></p>
 <h1 align="center">bulma-kitsune | <a href="https://amarchese.com/a/1/build-a-website-with-bulma-css-framework-in-minutes-for-free">Tutorial</a></h1>
 
-`bulma-kitsune` is a single page website for a fictional Ramer restaurant, built with <img src="./media/bulma.png" style="height: 10px"> [Bulma](https://bulma.io/), using HTML and CSS only. This repository was built for educational purposes and for you to code along in my article “[Build a Website with Bulma CSS Framework in Minutes for Free](https://amarchese.com/a/1/build-a-website-with-bulma-css-framework-in-minutes-for-free)”. You can also use this project as a base or reference to create a personal or small business website.
+🦊 `bulma-kitsune` is a single-page website for a fictional Ramer restaurant. It is built with <img src="./media/bulma.png" style="height: 10px"> [Bulma](https://bulma.io/), using HTML and CSS only.
 
-If you enjoyed the tutorial please ⭐ this repo.
+This repository was built for educational purposes and for you to code along in my article 📄 “[Build a Website with Bulma CSS Framework in Minutes for Free](https://amarchese.com/a/1/build-a-website-with-bulma-css-framework-in-minutes-for-free)”. You can also use this project as a base or reference to create a personal or small business website.
+
+Check out the ✨[Live Demo](https://amarchese.github.io/bulma-kitsune/) and ⭐ this repo if you enjoyed it.
 
 ### Project Setup
 
