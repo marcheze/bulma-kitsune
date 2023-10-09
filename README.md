@@ -27,7 +27,7 @@ Add a starter template to `index.html` and import `style.css` into it:
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kitsune</title>
+    <title>Kitsune Restaurant</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>

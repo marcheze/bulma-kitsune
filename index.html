@@ -28,19 +28,19 @@
             <div class="column is-narrow">
               <div class="columns">
                 <div class="column is-narrow header-menu">
-                  <a href="#">Menu</a>
+                  <a href="#menu">Menu</a>
                 </div>
                 <div class="column is-narrow is-hidden-mobile header-menu">
                   /
                 </div>
                 <div class="column is-narrow header-menu">
-                  <a href="#">KitsuneWall</a>
+                  <a href="#wall">KitsuneWall</a>
                 </div>
                 <div class="column is-narrow is-hidden-mobile header-menu">
                   /
                 </div>
                 <div class="column is-narrow header-menu">
-                  <a href="#">Contact</a>
+                  <a href="#footer">Contact</a>
                 </div>
               </div>
             </div>
@@ -58,10 +58,14 @@
                   What's better than a bowl of fresh Ramen?
                 </div>
                 <div class="column is-narrow">
-                  <button class="splash-action-btn"></button>
+                  <a href="#menu"
+                    ><button class="splash-action-btn"></button
+                  ></a>
                 </div>
                 <div class="column is-narrow is-hidden-mobile">
-                  <img class="splash-arrow" src="./media/down_arrow.gif" />
+                  <a href="#menu"
+                    ><img class="splash-arrow" src="./media/down_arrow.gif"
+                  /></a>
                 </div>
               </div>
             </div>
@@ -80,7 +84,7 @@
       <img class="cloud-divider-end" src="./media/cloud_divider.png" />
 
       <!-- MENU SECTION -->
-      <section>
+      <section id="menu">
         <div class="container menu-container has-text-centered">
           <img class="menu-img has-text-centered" src="./media/menu.png" />
           <img
@@ -91,7 +95,7 @@
       </section>
 
       <!-- WALL SECTION -->
-      <section>
+      <section id="wall">
         <div class="container wall-container">
           <h1 class="title has-text-centered">#KitsuneWall</h1>
           <div class="columns is-centered is-mobile wall-columns">
@@ -122,7 +126,7 @@
       </section>
     </div>
     <!-- FOOTER SECTION -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="columns is-vcentered footer-content-wrapper">
         <div class="column is-narrow">
           <div class="columns is-mobile is-centered">

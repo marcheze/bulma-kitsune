@@ -13,6 +13,10 @@
   --black: #202020;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Tsukimi Rounded", monospace;
   padding: 0rem;
